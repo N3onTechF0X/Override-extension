@@ -1,0 +1,60 @@
+{
+    "site": {
+        "ChangePresetButton": "Сменить Пресет",
+        "savePresetButton": "Сохранить Пресет",
+        "DeletePresetButton": "Удалить Пресет",
+        "DefaultPresetButton": "Стандарт",
+        "TurretsLabel": "Пушки",
+        "HullsLabel": "Корпуса",
+        "DronesLabel": "Дроны",
+        "ChangePresetModalTitle": "Выбери Пресет на Смену",
+        "SavePresetModalTitle": "Введи Имя Пресета",
+        "SavePresetModalInput": "Имя Пресета",
+        "SavePresetModalCancelButton": "Отмена",
+        "SavePresetModalOKButton": "ОК",
+        "SavePresetModalInvalidNameError": "Неверное имя.",
+        "SavePresetModalAlreadyExistError": "Пресет уже существует.",
+        "DeletePresetModalTitle": "Выбери Пресет на Удаление"
+    },
+    "turrets": {
+        "firebird": "огнемёт",
+        "freeze": "фриз",
+        "isida": "изида",
+        "tesla": "тесла",
+        "hammer": "молот",
+        "twins": "твинс",
+        "ricochet": "рикошет",
+        "vulcan": "вулкан",
+        "smoky": "смоки",
+        "striker": "страйкер",
+        "thunder": "гром",
+        "scorpion": "скорпион",
+        "magnum": "магнум",
+        "railgun": "рельса",
+        "gauss": "гаусс",
+        "shaft": "шафт"
+    },
+    "hulls": {
+        "wasp": "васп",
+        "hopper": "хоппер",
+        "hornet": "хорнет",
+        "viking": "викинг",
+        "crusader": "крусейдер",
+        "hunter": "хантер",
+        "paladin": "паладин",
+        "dictator": "диктатор",
+        "titan": "титан",
+        "ares": "арес",
+        "mammoth": "мамонт"
+    },
+    "drones": {
+        "crisis": "кризис",
+        "hyperion": "гиперион"
+    },
+    "popup": {
+        "off": "выкл",
+        "on": "вкл",
+        "editSkinsButton": "Выбрать скины",
+        "presetsLabel": "Пресеты"
+    }
+}
