@@ -1,7 +1,7 @@
 {
     "site": {
         "ChangePresetButton": "Change Preset",
-        "savePresetButton": "Save Preset",
+        "SavePresetButton": "Save Preset",
         "DeletePresetButton": "Delete Preset",
         "DefaultPresetButton": "Default",
         "TurretsLabel": "Turrets",
@@ -14,8 +14,7 @@
         "SavePresetModalOKButton": "OK",
         "SavePresetModalInvalidNameError": "Invalid Name.",
         "SavePresetModalAlreadyExistError": "Preset already exists.",
-        "DeletePresetModalTitle": "Select a Preset to Delete",
-        "DeletePresetAlertTitle": "Are you sure you want to delete the preset %name%?"
+        "DeletePresetModalTitle": "Select a Preset to Delete"
     },
     "turrets": {
         "firebird": "firebird",
@@ -52,10 +51,7 @@
         "crisis": "crisis",
         "hyperion": "hyperion"
     },
-    "default": "default",
     "popup": {
-        "off": "off",
-        "on": "on",
         "editSkinsButton": "Edit Skins",
         "presetsLabel": "Presets"
     }
