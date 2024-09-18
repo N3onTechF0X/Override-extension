@@ -52,8 +52,6 @@
         "hyperion": "гиперион"
     },
     "popup": {
-        "off": "выкл",
-        "on": "вкл",
         "editSkinsButton": "Выбрать скины",
         "presetsLabel": "Пресеты"
     }
