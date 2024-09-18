@@ -1,0 +1,62 @@
+{
+    "site": {
+        "ChangePresetButton": "Change Preset",
+        "savePresetButton": "Save Preset",
+        "DeletePresetButton": "Delete Preset",
+        "DefaultPresetButton": "Default",
+        "TurretsLabel": "Turrets",
+        "HullsLabel": "Hulls",
+        "DronesLabel": "Drones",
+        "ChangePresetModalTitle": "Select a Preset to Change",
+        "SavePresetModalTitle": "Enter Preset Name",
+        "SavePresetModalInput": "Preset Name",
+        "SavePresetModalCancelButton": "Cancel",
+        "SavePresetModalOKButton": "OK",
+        "SavePresetModalInvalidNameError": "Invalid Name.",
+        "SavePresetModalAlreadyExistError": "Preset already exists.",
+        "DeletePresetModalTitle": "Select a Preset to Delete",
+        "DeletePresetAlertTitle": "Are you sure you want to delete the preset %name%?"
+    },
+    "turrets": {
+        "firebird": "firebird",
+        "freeze": "freeze",
+        "isida": "isida",
+        "tesla": "tesla",
+        "hammer": "hammer",
+        "twins": "twins",
+        "ricochet": "ricochet",
+        "vulcan": "vulcan",
+        "smoky": "smoky",
+        "striker": "striker",
+        "thunder": "thunder",
+        "scorpion": "scorpion",
+        "magnum": "magnum",
+        "railgun": "railgun",
+        "gauss": "gauss",
+        "shaft": "shaft"
+    },
+    "hulls": {
+        "wasp": "wasp",
+        "hopper": "hopper",
+        "hornet": "hornet",
+        "viking": "viking",
+        "crusader": "crusader",
+        "hunter": "hunter",
+        "paladin": "paladin",
+        "dictator": "dictator",
+        "titan": "titan",
+        "ares": "ares",
+        "mammoth": "mammoth"
+    },
+    "drones": {
+        "crisis": "crisis",
+        "hyperion": "hyperion"
+    },
+    "default": "default",
+    "popup": {
+        "off": "off",
+        "on": "on",
+        "editSkinsButton": "Edit Skins",
+        "presetsLabel": "Presets"
+    }
+}
