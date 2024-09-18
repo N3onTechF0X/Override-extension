@@ -1,7 +1,7 @@
 {
     "site": {
         "ChangePresetButton": "Сменить Пресет",
-        "savePresetButton": "Сохранить Пресет",
+        "SavePresetButton": "Сохранить Пресет",
         "DeletePresetButton": "Удалить Пресет",
         "DefaultPresetButton": "Стандарт",
         "TurretsLabel": "Пушки",
