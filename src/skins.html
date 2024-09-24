@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Overrider</title>
+    <link rel="icon" href="icon/oLogo.png" type="image/png">
+    <link rel="stylesheet" href="styles/root.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/presetList.css">
+    <link rel="stylesheet" href="styles/savePreset.css">
+    <link rel="stylesheet" href="styles/deletePreset.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="icon/oLogo.png" alt="Logo" class="logo">
+            <h1>Overrider</h1>
+            <a href="https://github.com/N3onTechF0X/Override-extension" target="_blank" class="github-link">
+                <img src="icon/github.png" alt="GitHub" class="github-icon">
+            </a>
+        </div>
+    </header>
+    <hr>
+    <div class="buttons">
+        <button translation="ChangePresetButton" id="changePreset">Change Preset</button>
+        <button translation="SavePresetButton" id="savePreset">Save Preset</button>
+        <button translation="DeletePresetButton" id="deletePreset">Delete Preset</button>
+        <button translation="DefaultPresetButton" id="defaultPreset">Default</button>
+    </div>
+    <hr>
+    <div class="columns">
+        <div class="column" id="turretsColumn">
+            <h2 translation="TurretsLabel">Turrets</h2>
+        </div>
+        <div class="column" id="hullsColumn">
+            <h2 translation="HullsLabel">Hulls</h2>
+        </div>
+        <div class="column" id="dronesColumn">
+            <h2 translation="DronesLabel">Drones</h2>
+        </div>
+    </div>
+    <div id="presetListModal" class="preset-list-modal">
+        <div class="preset-list-content">
+            <span class="closeList close">&times;</span>
+            <h2 translation="ChangePresetModalTitle">Select a Preset to Change</h2>
+            <div id="presetList">
+                
+            </div>
+        </div>
+    </div>
+    <div id="savePresetModal" class="save-preset-modal">
+        <div class="save-preset-content">
+            <span class="closeSave close">&times;</span>
+            <h2 translation="SavePresetModalTitle">Enter Preset Name</h2>
+            <p translation="SavePresetModalAlreadyExistError" id="exist_error" style="color: red; display: none;">Preset already exists.</p>
+            <p translation="SavePresetModalInvalidNameError" id="name_error" style="color: red; display: none;">Invalid name.</p>
+            <input translation="SavePresetModalInput" type="text" id="presetName" placeholder="Preset Name">
+            <div class="save-preset-buttons">
+                <button translation="SavePresetModalCancelButton" id="modalCancel">Cancel</button>
+                <button translation="SavePresetModalOKButton" id="modalOk">OK</button>
+            </div>
+        </div>
+    </div>
+    <div id="deletePresetModal" class="delete-preset-modal">
+        <div class="delete-preset-content">
+            <span class="closeDelete close">&times;</span>
+            <h2 translation="DeletePresetModalTitle">Select a Preset to Delete</h2>
+            <div id="deletePresetList">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/changePreset.js"></script>
+    <script src="js/savePreset.js"></script>
+    <script src="js/deletePreset.js"></script>
+    <script src="js/defaultPreset.js"></script>
+    <script src="js/localization.js"></script>
+</body>
+</html>

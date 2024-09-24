@@ -1,0 +1,44 @@
+.delete-preset-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.delete-preset-content {
+    background-color: var(--background-color);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid var(--color);
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.delete-preset-content h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.delete-preset-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: var(--color);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-preset-button:hover {
+    background-color: var(--secondary-color);
+}
