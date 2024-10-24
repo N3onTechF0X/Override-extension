@@ -15,7 +15,7 @@
     "magnum": ["default", "XT", "SP"],
     "railgun": ["default", "XT", "LC", "PR", "UT", "GT"],
     "gauss": ["default", "XT", "PR", "UT", "GT", "IC"],
-    "shaft": ["default", "XT", "LC"]
+    "shaft": ["default", "XT", "LC", "DC"]
   },
   "hull": {
     "wasp": ["default", "XT", "DC", "LC", "GT"],
