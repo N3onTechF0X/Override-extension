@@ -6,7 +6,7 @@
     "tesla": ["default", "XT_new", "LC", "RF"],
     "hammer": ["default", "XT", "LC", "DC"],
     "twins": ["default", "XT", "LC", "SP", "RF", "GT"],
-    "ricochet": ["default", "XT", "LC", "RF"],
+    "ricochet": ["default", "XT", "LC", "RF", "GT"],
     "vulcan": ["default", "XT", "PR", "UT", "DC"],
     "smoky": ["default", "XT", "LC", "GT"],
     "striker": ["default", "XT", "UT"],
@@ -26,7 +26,7 @@
     "hunter": ["default", "XT", "LC", "PR", "UT", "GT", "DC"],
     "paladin": ["default", "XT_new", "RF"],
     "dictator": ["default", "XT", "LC", "GT", "SP"],
-    "titan": ["default", "XT", "LC", "PR", "SP"],
+    "titan": ["default", "XT", "LC", "PR", "SP", "GT"],
     "ares": ["default", "XT_new"],
     "mammoth": ["default", "XT", "LC", "UT", "SP", "GT"]
   },
