@@ -4,7 +4,7 @@
     "freeze": ["default", "XT", "XT_new", "LC", "IC", "GT", "SE"],
     "isida": ["default", "XT", "LC", "GT"],
     "tesla": ["default", "XT_new", "LC", "RF"],
-    "hammer": ["default", "XT", "LC", "DC"],
+    "hammer": ["default", "XT", "LC", "DC", "IC"],
     "twins": ["default", "XT", "LC", "SP", "RF", "GT"],
     "ricochet": ["default", "XT", "LC", "RF", "GT"],
     "vulcan": ["default", "XT", "PR", "UT", "DC"],
