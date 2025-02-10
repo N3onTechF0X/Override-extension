@@ -1,200 +1,200 @@
 {
     "hulls": {
         "ares": [
-            "XT_new",
-            "default"
+            "default",
+            "XT_new"
         ],
         "crusader": [
-            "RF",
+            "default",
             "XT_new",
-            "default"
+            "RF"
         ],
         "dictator": [
-            "GT",
+            "default",
+            "XT",
             "LC",
             "SP",
-            "XT",
-            "default"
+            "GT"
         ],
         "hopper": [
-            "RF",
+            "default",
             "XT_new",
-            "default"
+            "RF"
         ],
         "hornet": [
-            "GT",
+            "default",
+            "XT",
+            "XT_new",
             "LC",
             "PR",
             "UT",
-            "XT",
-            "XT_new",
-            "default"
+            "GT"
         ],
         "hunter": [
-            "DC",
-            "GT",
+            "default",
+            "XT",
             "LC",
             "PR",
             "UT",
-            "XT",
-            "default"
+            "DC",
+            "GT"
         ],
         "mammoth": [
-            "GT",
-            "LC",
-            "SP",
-            "UT",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "UT",
+            "SP",
+            "GT"
         ],
         "paladin": [
-            "RF",
+            "default",
             "XT_new",
-            "default"
+            "RF"
         ],
         "titan": [
+            "default",
+            "XT",
             "LC",
             "PR",
-            "SP",
-            "XT",
-            "default"
+            "SP"
         ],
         "viking": [
-            "DC",
-            "GT",
+            "default",
+            "XT",
+            "XT_new",
             "LC",
             "PR",
             "UT",
-            "XT",
-            "XT_new",
-            "default"
+            "DC",
+            "GT"
         ],
         "wasp": [
-            "DC",
-            "GT",
-            "LC",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "DC",
+            "GT"
         ]
     },
     "turrets": {
         "firebird": [
-            "DC",
-            "DC_old",
-            "GT",
-            "LC",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "DC",
+            "GT",
+            "DC_old"
         ],
         "freeze": [
-            "GT",
-            "IC",
-            "LC",
-            "SE",
+            "default",
             "XT",
             "XT_new",
-            "default"
+            "LC",
+            "IC",
+            "GT",
+            "SE"
         ],
         "gauss": [
-            "GT",
-            "IC",
+            "default",
+            "XT",
             "PR",
             "UT",
-            "XT",
-            "default"
+            "IC",
+            "GT"
         ],
         "hammer": [
-            "DC",
-            "IC",
-            "LC",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "DC",
+            "IC"
         ],
         "isida": [
-            "GT",
-            "LC",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "GT"
         ],
         "magnum": [
-            "SP",
+            "default",
             "XT",
-            "default"
+            "SP"
         ],
         "railgun": [
-            "GT",
+            "default",
+            "XT",
             "LC",
             "PR",
             "UT",
-            "XT",
-            "default"
+            "GT"
         ],
         "ricochet": [
-            "LC",
-            "RF",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "RF"
         ],
         "scorpion": [
-            "XT_new",
-            "default"
+            "default",
+            "XT_new"
         ],
         "shaft": [
-            "DC",
-            "LC",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "DC"
         ],
         "smoky": [
-            "GT",
-            "LC",
+            "default",
             "XT",
-            "default"
+            "LC",
+            "GT"
         ],
         "striker": [
-            "UT",
+            "default",
             "XT",
-            "default"
+            "UT"
         ],
         "tesla": [
-            "LC",
-            "RF",
+            "default",
             "XT_new",
-            "default"
+            "LC",
+            "RF"
         ],
         "thunder": [
-            "GT",
-            "LC",
-            "PR",
-            "UT",
+            "default",
             "XT",
             "XT_new",
-            "default"
-        ],
-        "twins": [
-            "GT",
             "LC",
-            "RF",
-            "SP",
-            "XT",
-            "default"
-        ],
-        "vulcan": [
-            "DC",
             "PR",
             "UT",
+            "GT"
+        ],
+        "twins": [
+            "default",
             "XT",
-            "default"
+            "LC",
+            "SP",
+            "RF",
+            "GT"
+        ],
+        "vulcan": [
+            "default",
+            "XT",
+            "PR",
+            "UT",
+            "DC"
         ]
     },
     "drones": {
         "crisis": [
-            "XT",
-            "deafult"
+            "deafult",
+            "XT"
         ],
         "hyperion": [
-            "XT",
-            "deafult"
+            "deafult",
+            "XT"
         ]
     }
 }
