@@ -189,11 +189,11 @@
     },
     "drones": {
         "crisis": [
-            "deafult",
+            "default",
             "XT"
         ],
         "hyperion": [
-            "deafult",
+            "default",
             "XT"
         ]
     }
