@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overrider</title>
+    <link rel="stylesheet" href="styles/root.css">
+    <style>
+        body {
+            background-color: var(--background-color);
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .logo {
+            max-width: 50px;
+            margin-right: 10px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            padding: 10px;
+            margin: 10px;
+            width: 85px;
+            height: 40px;
+            border: 2px solid var(--color);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.5s linear;
+            color: #ffffff;
+        }
+
+        .button-edit {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--color);
+        }
+
+        .button-on {
+            background-color: var(--color);
+        }
+
+        .button-off {
+            background-color: var(--background-color);
+        }
+
+        button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .presets-container {
+            margin: 10px;
+        }
+
+        .presets-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .preset-item button {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        hr {
+            margin-left: 10px;
+            margin-right: 10px;
+            border: var(--secondary-color) 1px solid;
+            border-radius: 50%;
+        }
+
+        .bottom-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+            margin-bottom: 5px;
+        }
+
+        .github-icon {
+            max-width: 30px;
+            border: var(--color) 3px solid;
+            border-radius: 50%;
+            background-color: var(--color);
+        }
+
+        select {
+            width: 60px;
+            height: 30px;
+            appearance: none;
+            padding: 5px;
+            background-color: var(--background-color);
+            color: #ffffff;
+            border: 2px solid var(--color);
+            transition: background-color 0.5s linear;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        select:hover {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="icon/oLogo.png" alt="Logo" class="logo">
+        <h1>Overrider</h1>
+    </div>
+
+    <div class="row">
+        <button id="toggle-button" class="button-on">On</button> 
+        <button translation="editSkinsButton" id="edit-skins" class="button-edit">Edit Skins</button>
+    </div>
+
+    <hr>
+
+    <div class="presets-container">
+        <h2 translation="presetsLabel">Presets</h2>
+        <ul id="presets-list" class="presets-list"></ul>
+    </div>
+
+    <hr>
+
+    <div class="bottom-container">
+        <select id="language-select"></select>
+        <a href="https://github.com/N3onTechF0X/Override-extension" target="_blank" class="github-link">
+            <img src="icon/github.png" alt="GitHub" class="github-icon">
+        </a>
+    </div>
+
+    <script src="js/popup.js"></script>
+    <script src="js/localization.js"></script>
+</body>
+</html>

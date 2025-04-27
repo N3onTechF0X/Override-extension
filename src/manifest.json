@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Overrider",
+  "version": "2.0.0",
+  "description": "Get any skins in Tanki Online.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.tankionline.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://*.tankionline.com/*"
+      ],
+      "resources": [
+        "override-fetch.js"
+      ]
+    }
+  ],
+  "icons": {
+    "48": "icon/oLogo.png",
+    "32": "icon/oLogo.png",
+    "16": "icon/oLogo.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://raw.githubusercontent.com"
+  }
+}
