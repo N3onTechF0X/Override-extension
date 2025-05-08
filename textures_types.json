@@ -29,7 +29,8 @@
             "PR",
             "UT",
             "DC",
-            "GT"
+            "GT",
+            "DK"
         ],
         "crusader": [
             "default",
@@ -107,7 +108,8 @@
             "default",
             "XT_new",
             "LC",
-            "RF"
+            "RF",
+            "GT"
         ],
         "hammer": [
             "default",
