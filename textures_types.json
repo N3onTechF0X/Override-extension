@@ -19,7 +19,8 @@
             "LC",
             "PR",
             "UT",
-            "GT"
+            "GT",
+            "DK"
         ],
         "viking": [
             "default",
@@ -69,7 +70,8 @@
         "ares": [
             "default",
             "XT_new",
-            "RF"
+            "RF",
+            "DK"
         ],
         "mammoth": [
             "default",
@@ -110,7 +112,8 @@
             "XT_new",
             "LC",
             "RF",
-            "GT"
+            "GT",
+            "DK"
         ],
         "hammer": [
             "default",
@@ -152,7 +155,8 @@
         "striker": [
             "default",
             "XT",
-            "UT"
+            "UT",
+            "XT_new"
         ],
         "thunder": [
             "default",
@@ -166,7 +170,8 @@
         ],
         "scorpion": [
             "default",
-            "XT_new"
+            "XT_new",
+            "DK"
         ],
         "magnum": [
             "default",
