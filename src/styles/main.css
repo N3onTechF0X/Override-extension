@@ -101,7 +101,7 @@ hr {
     width: 100%;
     border: var(--secondary-color) 1px solid;
     border-radius: 50%;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .columns {
