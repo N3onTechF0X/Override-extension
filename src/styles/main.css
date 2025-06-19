@@ -28,6 +28,7 @@ html, body {
     background-color: var(--background-color);
     color: #fff;
     box-sizing: border-box;
+    height: 100%;
 }
 
 body {
