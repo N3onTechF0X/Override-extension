@@ -31,6 +31,7 @@ html, body {
 }
 
 body {
+    margin: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -97,6 +98,7 @@ h1 {
 }
 
 hr {
+    width: 100%;
     border: var(--secondary-color) 1px solid;
     border-radius: 50%;
     margin-top: 20px;
