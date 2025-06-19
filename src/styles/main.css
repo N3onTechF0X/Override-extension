@@ -106,6 +106,7 @@ hr {
 .columns {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     overflow: hidden;
 }
 
@@ -116,6 +117,7 @@ hr {
     align-items: center;
     overflow-y: auto;
     max-height: 100%;
+    padding: 10px;
 }
 
 .column h2 {
@@ -135,7 +137,6 @@ hr {
 .item-name {
     flex: 1;
     text-align: left;
-    margin-left: 40px;
 }
 
 select {
@@ -147,7 +148,6 @@ select {
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    margin-right: 10px;
     text-align: center;
     flex: 1;
 }
