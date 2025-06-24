@@ -20,12 +20,21 @@ button, select {
     animation: fadeOut 0.3s forwards;
 }
 
-body {
-    background-color: var(--background-color);
-    color: #ffffff;
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin: 20px;
+    background-color: var(--background-color);
+    color: #fff;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -72,12 +81,11 @@ h1 {
 .buttons {
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
+    gap: 10px;
 }
 
 .buttons button {
     padding: 10px;
-    margin-right: 10px;
     background-color: var(--color);
     border: none;
     border-radius: 10px;
@@ -90,21 +98,27 @@ h1 {
 }
 
 hr {
+    width: 100%;
     border: var(--secondary-color) 1px solid;
     border-radius: 50%;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .columns {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    overflow: hidden;
 }
 
 .column {
-    width: 30%;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: auto;
+    max-height: 100%;
+    padding: 10px;
 }
 
 .column h2 {
@@ -123,8 +137,8 @@ hr {
 
 .item-name {
     flex: 1;
+    font-size: 14px;
     text-align: left;
-    margin-left: 40px;
 }
 
 select {
@@ -136,7 +150,6 @@ select {
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    margin-right: 10px;
     text-align: center;
     flex: 1;
 }
@@ -163,4 +176,14 @@ select:hover {
 .delete-preset-modal,
 .save-preset-modal {
     backdrop-filter: blur(2px);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color);
+    border-radius: 5px;
 }
