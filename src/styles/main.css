@@ -136,6 +136,7 @@ hr {
 }
 
 .item-name {
+    text-transform: capitalize;
     flex: 1;
     font-size: 14px;
     text-align: left;
