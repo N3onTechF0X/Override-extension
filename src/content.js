@@ -9,7 +9,7 @@ function injectScript(filePath, callback) {
     (document.head || document.documentElement).appendChild(script);
 }
 
-fetch('https://raw.githubusercontent.com/N3onTechF0X/Override-extension/main/textures_links.json')
+fetch('https://raw.githubusercontent.com/N3onTechF0X/Override-extension/main/textures_links.json', { cache: 'no-store' })
     .then(response => response.json())
     .then(textures => {
         injectScript('override-fetch.js', () => {
@@ -33,13 +33,11 @@ window.addEventListener('message', async (event) => {
         try {
             const response = await fetch(url);
             const blob = await response.blob();
-
             window.postMessage({
                 type: 'CUSTOM_FETCH_RESULT',
                 requestId,
                 blob
             }, '*');
-
         } catch (err) {
             window.postMessage({
                 type: 'CUSTOM_FETCH_RESULT',

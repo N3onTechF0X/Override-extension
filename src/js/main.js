@@ -1,23 +1,23 @@
 let selections = {};
 
-function updateFieldsWithSelections() {
+const updateFieldsWithSelections = ()=>{
     for (const [itemName, to] of Object.entries(selections)) {
         const toSelect = document.querySelector(`#${itemName}`);
         if (toSelect) toSelect.value = to;
     }
 }
 
-function savePreset() {
+const savePreset = ()=>{
     chrome.storage.local.set({ currentPreset: selections });
 }
 
-fetch('https://raw.githubusercontent.com/N3onTechF0X/Override-extension/main/textures_types.json')
+fetch('https://raw.githubusercontent.com/N3onTechF0X/Override-extension/main/textures_types.json', { cache: 'no-store' })
   .then(response => response.json())
   .then(data => {
       populateFields('turret', data.turrets, 'turretsColumn');
       populateFields('hull', data.hulls, 'hullsColumn');
       populateFields('drone', data.drones, 'dronesColumn');
-      chrome.storage.local.get('currentPreset', function(result) {
+      chrome.storage.local.get('currentPreset', result => {
         if (result.currentPreset) {
             selections = result.currentPreset;
             updateFieldsWithSelections();
@@ -26,7 +26,7 @@ fetch('https://raw.githubusercontent.com/N3onTechF0X/Override-extension/main/tex
   })
   .catch(error => console.error('Ошибка загрузки JSON:', error));
 
-function populateFields(category, items, columnId) {
+const populateFields = (category, items, columnId) => {
     const column = document.getElementById(columnId);
     for (const itemName in items) {
         const skins = items[itemName];
@@ -49,7 +49,7 @@ function populateFields(category, items, columnId) {
 
         selections[itemName] = select.value;
 
-        select.addEventListener('change', function () {
+        select.addEventListener('change', ()=>{
             selections[itemName] = this.value;
             savePreset();
         });

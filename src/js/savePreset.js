@@ -1,33 +1,31 @@
-document.querySelector('.closeSave').addEventListener('click', function() {
+document.querySelector('.closeSave').addEventListener('click', ()=>{
     const elm = document.getElementById('savePresetModal');
     elm.classList.remove('fadeIn');
     elm.classList.add('fadeOut');
     elm.addEventListener('animationend', () => {
-        if (elm.classList.contains('fadeOut')) {
+        if (elm.classList.contains('fadeOut'))
             elm.style.display = 'none';
-        }
     }, {once: true});
 });
 
-document.getElementById('savePreset').addEventListener('click', function() {
+document.getElementById('savePreset').addEventListener('click', ()=>{
     const elm = document.getElementById('savePresetModal');
     elm.style.display = 'block';
     elm.classList.remove('fadeOut');
     elm.classList.add('fadeIn');
 });
 
-document.getElementById('modalCancel').addEventListener('click', function() {
+document.getElementById('modalCancel').addEventListener('click', ()=>{
     const elm = document.getElementById('savePresetModal');
     elm.classList.remove('fadeIn');
     elm.classList.add('fadeOut');
     elm.addEventListener('animationend', () => {
-        if (elm.classList.contains('fadeOut')) {
+        if (elm.classList.contains('fadeOut'))
             elm.style.display = 'none';
-        }
     }, {once: true});
 });
 
-document.getElementById('modalOk').addEventListener('click', function() {
+document.getElementById('modalOk').addEventListener('click', ()=>{
     const presetName = document.getElementById('presetName').value.trim();
     const existError = document.getElementById('exist_error');
     const nameError = document.getElementById('name_error');
@@ -53,9 +51,8 @@ document.getElementById('modalOk').addEventListener('click', function() {
                 elm.classList.remove('fadeIn');
                 elm.classList.add('fadeOut');
                 elm.addEventListener('animationend', () => {
-                    if (elm.classList.contains('fadeOut')) {
+                    if (elm.classList.contains('fadeOut'))
                         elm.style.display = 'none';
-                    }
                 }, {once: true});
             });
         }
