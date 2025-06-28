@@ -1,10 +1,12 @@
+<p align="center"><img src="src/icon/oLogo.png" alt="Logo"/></p>
+
 # Override-extension
 
 ![Version](https://img.shields.io/github/v/release/N3onTechF0X/Override-extension?include_prereleases&label=version)  
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![license](https://img.shields.io/github/license/N3onTechF0X/Override-extension)
 
-Override-extension - ээто визуальный мод для игры, позволяющий заменить стандартные скины танков на любые другие из [доступной базы](https://github.com/N3onTechF0X/TankiTextures), без необходимости владения ими в аккаунте. Удобный интерфейс, пресеты, и гибкие настройки — всё ради кастомизации.
+Override-extension - ээто визуальный мод для игры, позволяющий заменить стандартные скины танков на любые другие из [доступной базы](https://github.com/N3onTechF0X/TankiTextures), без необходимости владения ими в аккаунте. Удобный интерфейс, пресеты, и гибкие настройки - всё ради кастомизации.
 
 ## Оглавление
 
