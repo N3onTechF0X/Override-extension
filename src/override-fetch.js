@@ -22,7 +22,7 @@
         }
         const overrides = ['object.a3d', 'lightmap.webp', 'tracks.webp', 'wheels.webp', 'object.3ds']
             .map(file => {
-                if (file === "tracks.webp" && (skin === "LC" || skin === "XT")) return null;
+                if (file === "tracks.webp" && ["LC", "XT", "PR"].includes(skin)) return null;
                 const toFile = (file === "tracks.webp" && skin === "GT") ? "wheels.webp" : file;
                 return {
                     id: textures[element].id,
