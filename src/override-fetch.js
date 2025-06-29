@@ -47,6 +47,9 @@
     const overrideFetch = ()=>{
         const originalFetch = window.fetch;
         window.fetch = async (url, options) => {
+            if (url.url)
+                return await originalFetch(url, options)
+            
             const override = matchUrl(url);
             if (!override)
                 return await originalFetch(url, options);
