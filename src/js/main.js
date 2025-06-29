@@ -49,8 +49,8 @@ const populateFields = (category, items, columnId) => {
 
         selections[itemName] = select.value;
 
-        select.addEventListener('change', ()=>{
-            selections[itemName] = this.value;
+        select.addEventListener('change', event=>{
+            selections[itemName] = event.target.value;
             savePreset();
         });
 
