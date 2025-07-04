@@ -121,7 +121,8 @@
             "LC",
             "DC",
             "IC",
-            "GT"
+            "GT",
+            "SP"
         ],
         "twins": [
             "default",
