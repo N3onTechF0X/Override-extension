@@ -1,0 +1,44 @@
+name: Create Release
+
+on:
+  push:
+    paths:
+      - 'src/**'
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: get_version
+        run: |
+          VERSION=$(jq -r '.version' src/manifest.json)
+          BASE="$VERSION"
+          INDEX=0
+          while gh release view "v$VERSION" >/dev/null 2>&1; do
+            INDEX=$((INDEX+1))
+            VERSION="$BASE~$INDEX"
+          done
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: |
+          ZIP_NAME="Overrider-extension_v${{ steps.get_version.outputs.VERSION }}.zip"
+          cd src
+          zip -r "../$ZIP_NAME" .
+        shell: bash
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.get_version.outputs.VERSION }}
+          name: v${{ steps.get_version.outputs.VERSION }}
+          files: Overrider-extension_v${{ steps.get_version.outputs.VERSION }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
