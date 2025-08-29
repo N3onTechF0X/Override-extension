@@ -5,7 +5,8 @@
             "XT",
             "LC",
             "DC",
-            "GT"
+            "GT",
+            "VT"
         ],
         "hopper": [
             "default",
@@ -151,7 +152,8 @@
             "default",
             "XT",
             "LC",
-            "GT"
+            "GT",
+            "VT"
         ],
         "striker": [
             "default",
