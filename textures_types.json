@@ -46,7 +46,8 @@
             "PR",
             "UT",
             "DC",
-            "GT"
+            "GT",
+            "SP"
         ],
         "paladin": [
             "default",
