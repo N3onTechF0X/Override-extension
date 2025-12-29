@@ -183,7 +183,8 @@
         "magnum": [
             "default",
             "XT",
-            "SP"
+            "SP",
+            "IC"
         ],
         "railgun": [
             "default",
