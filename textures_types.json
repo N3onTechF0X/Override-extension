@@ -204,15 +204,15 @@
             "PR",
             "UT",
             "IC",
-            "GT"
+            "GT",
+            "RF"
         ],
         "shaft": [
             "default",
             "XT",
             "LC",
             "DC",
-            "GT",
-            "RF"
+            "GT"
         ]
     },
     "drones": {
