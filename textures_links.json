@@ -21,6 +21,7 @@
     "smoky": { "id": "1608878797828", "type": "turrets" },
     "striker": { "id": "1747992387942", "type": "turrets" },
     "thunder": { "id": "1655905193556", "type": "turrets" },
+    "tsunami": { "id": "1766644038237", "type": "turrets" },
     "scorpion": { "id": "1650345837812", "type": "turrets" },
     "magnum": { "id": "1761564062808", "type": "turrets" },
     "railgun": { "id": "1612936741458", "type": "turrets" },
