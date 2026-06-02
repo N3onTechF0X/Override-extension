@@ -177,6 +177,10 @@
             "GT",
             "DK"
         ],
+        "tsunami": [
+            "default",
+            "XT_new"
+        ],
         "scorpion": [
             "default",
             "XT_new",
